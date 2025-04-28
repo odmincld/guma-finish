@@ -366,7 +366,7 @@ a:active {
 .chaty {
     display: block;
 }
-@media (max-width: 23cm) {
+@media (max-width: 1000px) {
     .info {
         margin-bottom: 40px;
         display: block;
