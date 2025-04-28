@@ -366,7 +366,10 @@ a:active {
 .chaty {
     display: block;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
+    .container {
+        max-width: 300px;
+    }
     .info {
         margin-bottom: 40px;
         display: block;
