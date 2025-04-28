@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+    color: rgb(27, 26, 26);
+    background-color: rgb(197, 183, 183);
+    background-image: url(fon.jpg);
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+    }
+h1{
+  font-family: "Lobster", sans-serif;
+  font-weight: 900;
+  font-size: 52px;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+h2{
+    text-align: center;
+}
+.of {
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    color: rgb(43, 162, 231) ;
+}
+.card {
+    background-color: transparent;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card.bg-yellow{
+    width: fit-content;
+}
+.bg-yellow {
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgba(17, 125, 145, 0.75) ;
+    width: fit-content;
+    margin-left: 40px;
+    margin-bottom: -90px;
+    border: 5px solid rgba(0, 0, 0);
+
+}
+.bg-red {
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    margin-bottom: -90px;
+    margin-left: auto;
+    width: fit-content;
+    background-color: rgba(64 158 175 / 75%) ;
+    border: 5px solid rgba(0, 0, 0);
+}
+.bg-green {
+    background-color: rgba(97, 238, 97, 0.89) ;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif ;
+    
+    }
+
+a:hover {
+    color: rgb(141, 14, 14);
+    text-decoration: none;
+    }
+a:active {
+    color: rgb(230, 18, 18);
+    text-decoration: none;
+    }
+.container {
+    background-color: transparent;
+    max-width: 1000px;
+    margin: auto;
+    border: 0px solid rgba(0, 0, 0);
+    border-radius: 40px;
+    }
+
+.avatar {
+    margin-left: 40px;
+   width: 200px;
+   border-radius: 20px;
+   box-shadow: -6px 4px 5px 2px rgba(0, 0, 0, 0.2);
+   border: 8px solid rgba(0, 0, 0);
+    }
+.info {
+    display: flex;
+}
+
+.info h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin: 10px 0 10px 0px;
+    padding: 0px;
+}
+
+.info p {
+    font-weight: 900;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 65px 0px;
+    padding: 0px;
+    font-style: italic;
+    text-decoration: none;
+}
+.info2 {
+    margin-left: 20px ;
+    margin-bottom: 0px;
+}
+
+.list {
+    margin-bottom: 0px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(165 224 235 / 30%);
+    padding: 20px 30px;
+}
+.list li {
+    font-weight: 600;
+    list-style-type: style;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+.table2 {
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(94 207 227 / 30%);
+    width: 100%;
+    text-align: center;
+}
+.table2 th {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 60px;
+
+}
+.table2 td {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.table2 td:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table2 td:nth-child(2),
+.table2 td:nth-child(3) {
+    font-size: 16px;
+    font-weight: semi-bold;
+    text-align: center;
+}
+.table1 {
+    margin-bottom: 10px;
+    align-self: flex-end;
+    width: 350px;
+    padding: 10px;
+    height: 60px;
+    background-color: rgba(96, 93, 97, 0.61);
+    border-radius: 7px;
+    text-align: center;
+    color: black;
+    box-shadow:5px 5px 5px 2px rgba(0, 0, 0, 0.2) ;
+    border: 5px solid rgba(0, 0, 0);
+}
+.contact {
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    align-items: center; /* Центрирует по вертикали */
+    margin-right: 40px;
+    margin-left: auto ;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    background-color: hsl(189deg 64% 27% / 75%);
+    width: fit-content;
+    display: block;
+    padding: 20px;
+    padding-top: 10px;
+    border: 5px solid rgba(0, 0, 0);
+}
+.contact h2 {
+    align-items: center; /* Центрирует по вертикали */
+    margin-left: auto;
+    text-align: center;
+}
+.contact2 {
+    margin-left: auto;
+    background-color: rgba(70, 161, 177, 0.3);
+    padding-top: 2px;
+    border-radius: 20px;
+    display: flex;
+    width: fit-content
+}
+.row2 {
+    display: block;
+    width: 100%;
+}
+.group{
+    background-color: transparent;
+}
+.group label{
+    margin-top: 8px;
+    padding: 5px;
+    font-weight: 600;
+    width: fit-content;
+    background-color: rgba(91, 189, 206, 0.3);
+    border-radius: 8px;
+    display: flex;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+.row2 label{
+    margin-bottom: 2px;
+}
+.group ::placeholder {
+    color: rgba(0, 0, 0, 0.651);
+}
+.group input,
+.group textarea {
+    align-content:flex-end;
+    width: 90%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+.group input:-webkit-autofill {
+    background-color: lightyellow !important;
+    /* иногда надо ещё добавить transition, чтобы убрать резкий белый фон */
+    transition: background-color 5000s ease-in-out 0s;
+  }
+.group input[type="radio"]{
+    width:fit-content;
+    cursor: pointer;
+    accent-color: black;
+}
+
+.row {
+    display:block;
+    width: 100%;
+}
+.row > .group {
+    /* width: 33%; */
+    margin: 0px 5px
+}
+
+.btn {
+    background-color: rgba(53, 56, 50, 0.644);
+    color: rgb(255, 255, 255);
+    padding: 7px 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: translate3d(2px,-2px,0px);
+    box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.btn:active {
+    transform: translateY(0px);
+    box-shadow: 2px 3px 4px 3px rgba(0, 0, 0, 0.2);
+}
+.sosial {
+    max-width: 1000px;
+    display: flex;
+    align-items: center; /* Центрирует по вертикали */
+    margin: 0px;
+    justify-content: center; /* Чтобы "Dont Klick" был справа */
+    padding: 20px;
+}
+.sosial_links:hover {
+    transform: translateY(-2px);
+    background-color: rgba(36, 80, 97, 0.76);
+}
+
+.sosial_links {
+    border: 5px solid rgba(0, 0, 0);
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:max-content;
+    background-color: rgba(36, 80, 97, 0.39) ;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.sosial_links a {
+   background-color: none;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif ;
+   font-size: 19px;
+   margin: 0px 0px;
+}
+.sosial img {
+   align-items: center;
+   width: 25px;;
+   margin: 0px 2px 0 15px;
+}
+.sosial img[src="telegram.png"] {
+    margin-left: 0px;
+}
+
+.klick {
+    position: fixed;
+    display:flex;
+    width: fit-content;
+    justify-content: right;
+    align-items:center;
+    right: 20px;
+    bottom: 20px;
+}
+.klick a {
+    width:auto;
+    background-color: rgba(36, 80, 97, 0.39);
+    color: rgba(0, 0, 0, 0.548);
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    border: 5px solid rgba(0, 0, 0, 0.534);
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.klick h2 {
+    width: fit-content;
+}
+.klick a:hover {
+    color: rgb(0, 0, 0);
+    border-color: black;
+    background-color: rgba(36, 80, 97, 0.76);
+}
+.klick:hover{
+    width: fit-content ;
+    transform: translate3d(2px,-2px,0px);
+}
+.table2 h2{
+    color: red;
+}
+.chaty {
+    display: block;
+}
+@media (max-width: 23cm) {
+    .info {
+        margin-bottom: 40px;
+        display: block;
+        text-align: center;
+    }
+    .info .avatar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info h1 {
+        text-align: center;
+    }
+    .info2{
+        text-align: center;
+    }
+    .info2 .table1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .info2 p {
+        margin-bottom: 30px;
+    }
+    .seting {
+        display: block;
+        padding: 0;
+        margin-bottom: 130px;
+        background-color: transparent;
+        /* background-color: transparent; */
+    }
+}
