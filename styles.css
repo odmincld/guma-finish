@@ -131,7 +131,7 @@ a:active {
 }
 .list li {
     font-weight: 600;
-    list-style-type: style;
+    list-style-type: none;
     color: rgb(0, 0, 0);
     margin-bottom: 5px;
 }
