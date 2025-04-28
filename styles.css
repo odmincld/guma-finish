@@ -422,4 +422,7 @@ a:active {
     .klick{
         bottom: 60px;
     }
+    .list {
+        font-size: 16px;
+    }
 }
