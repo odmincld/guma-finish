@@ -338,9 +338,10 @@ a:active {
 }
 .klick a {
     width:auto;
+    font-size: 16px;
     background-color: rgba(36, 80, 97, 0.39);
     color: rgba(0, 0, 0, 0.548);
-    padding: 10px;
+    padding: 6px;
     border-radius: 20px;
     transition: background-color 0.3s ease-in-out;
     border: none;
@@ -366,7 +367,7 @@ a:active {
 .chaty {
     display: block;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
     .container {
         max-width: 100%;
     }
@@ -398,5 +399,17 @@ a:active {
         margin-bottom: 130px;
         background-color: transparent;
         /* background-color: transparent; */
+    }
+    .seting .bg-red {
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .seting .bg-yellow {
+        margin: 0px auto;
+        margin-bottom: 0px;
+    }
+    .seting .contact {
+        margin: 0px auto;
+        margin-bottom: 0px;
     }
 }
