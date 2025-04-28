@@ -372,7 +372,9 @@ a:active {
         max-width: 100%;
     }
     .info {
-        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
         display: block;
         text-align: center;
     }
@@ -385,6 +387,8 @@ a:active {
     }
     .info2{
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .info2 .table1 {
         margin-left: auto;
@@ -396,7 +400,7 @@ a:active {
     .seting {
         display: block;
         padding: 0;
-        margin-bottom: 130px;
+        margin-bottom: 100px;
         background-color: transparent;
         /* background-color: transparent; */
     }
@@ -411,5 +415,8 @@ a:active {
     .seting .contact {
         margin: 0px auto;
         margin-bottom: 0px;
+    }
+    .klick{
+        bottom: 60px;
     }
 }
