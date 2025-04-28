@@ -368,7 +368,7 @@ a:active {
 }
 @media (max-width: 1500px) {
     .container {
-        max-width: 300px;
+        max-width: 100%;
     }
     .info {
         margin-bottom: 40px;
