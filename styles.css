@@ -55,6 +55,7 @@ h2{
     margin-bottom: -90px;
     margin-left: auto;
     width: fit-content;
+    height: fit-content;
     background-color: rgba(64 158 175 / 75%) ;
     border: 5px solid rgba(0, 0, 0);
 }
@@ -120,6 +121,8 @@ a:active {
 }
 
 .list {
+    width: fit-content;
+    height: fit-content;
     margin-bottom: 0px;
     border-radius: 20px;
     color: rgb(0, 0, 0);
